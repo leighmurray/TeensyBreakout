@@ -1,0 +1,1459 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Audio_SGTL5000XNAA3
+#
+DEF Audio_SGTL5000XNAA3 U 0 20 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Audio_SGTL5000XNAA3" -300 -1250 50 H V C CNN
+F2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ QFN*1EP*5x5mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -500 1200 500 -1200 0 1 10 f
+X GND 1 -150 -1300 100 U 50 50 1 1 W
+X VAG 10 -600 -475 100 R 50 50 1 1 P
+X LINEOUT_R 11 600 650 100 L 50 50 1 1 O
+X LINEOUT_L 12 600 550 100 L 50 50 1 1 O
+X LINEIN_R 13 600 775 100 L 50 50 1 1 I
+X LINEIN_L 14 600 875 100 L 50 50 1 1 I
+X MIC 15 600 -750 100 L 50 50 1 1 I
+X MIC_BIAS 16 600 -900 100 L 50 50 1 1 I
+X NC 17 400 -575 100 R 50 50 1 1 N N
+X CPFILT 18 -600 -575 100 R 50 50 1 1 I
+X NC 19 400 -100 100 R 50 50 1 1 N N
+X HP_R 2 600 200 100 L 50 50 1 1 O
+X VDDIO 20 100 1300 100 D 50 50 1 1 W
+X SYS_MCLK 21 -600 250 100 R 50 50 1 1 I
+X NC 22 400 -200 100 R 50 50 1 1 N N
+X I2S_LRCLK 23 -600 50 100 R 50 50 1 1 I
+X I2S_SCLK 24 -600 150 100 R 50 50 1 1 I
+X I2S_DOUT 25 -600 -150 100 R 50 50 1 1 O
+X I2S_DIN 26 -600 -50 100 R 50 50 1 1 I
+X CTRL_DATA 27 -600 825 100 R 50 50 1 1 I
+X NC 28 400 -300 100 R 50 50 1 1 N N
+X CTRL_CLK 29 -600 725 100 R 50 50 1 1 I
+X GND 3 0 -1300 100 U 50 50 1 1 P
+X VDDD 30 -100 1300 100 D 50 50 1 1 W
+X CTRL_ADR0_CS 31 -600 -675 100 R 50 50 1 1 I
+X CTRL_MODE 32 -600 -775 100 R 50 50 1 1 I
+X GND 33 450 -1300 100 U 50 50 1 1 P N
+X HP_VGND 4 600 100 100 L 50 50 1 1 w
+X VDDA 5 300 1300 100 D 50 50 1 1 W
+X HP_L 6 600 300 100 L 50 50 1 1 O
+X AGND 7 175 -1300 100 U 50 50 1 1 W
+X NC 8 400 -375 100 R 50 50 1 1 N N
+X NC 9 400 -475 100 R 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x03
+#
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x05
+#
+DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x05" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x08
+#
+DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
+F0 "J" 0 400 50 H V C CNN
+F1 "Connector_Generic_Conn_01x08" 0 -500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 350 50 -450 1 1 10 f
+X Pin_1 1 -200 300 150 R 50 50 1 1 P
+X Pin_2 2 -200 200 150 R 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 -200 0 150 R 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 -200 -200 150 R 50 50 1 1 P
+X Pin_7 7 -200 -300 150 R 50 50 1 1 P
+X Pin_8 8 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x10
+#
+DEF Connector_Generic_Conn_01x10 J 0 40 Y N 1 F N
+F0 "J" 0 500 50 H V C CNN
+F1 "Connector_Generic_Conn_01x10" 0 -600 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 450 50 -550 1 1 10 f
+X Pin_1 1 -200 400 150 R 50 50 1 1 P
+X Pin_10 10 -200 -500 150 R 50 50 1 1 P
+X Pin_2 2 -200 300 150 R 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 -200 100 150 R 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 -200 -100 150 R 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 -200 -300 150 R 50 50 1 1 P
+X Pin_9 9 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x14
+#
+DEF Connector_Generic_Conn_01x14 J 0 40 Y N 1 F N
+F0 "J" 0 700 50 H V C CNN
+F1 "Connector_Generic_Conn_01x14" 0 -800 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 650 50 -750 1 1 10 f
+X Pin_1 1 -200 600 150 R 50 50 1 1 P
+X Pin_10 10 -200 -300 150 R 50 50 1 1 P
+X Pin_11 11 -200 -400 150 R 50 50 1 1 P
+X Pin_12 12 -200 -500 150 R 50 50 1 1 P
+X Pin_13 13 -200 -600 150 R 50 50 1 1 P
+X Pin_14 14 -200 -700 150 R 50 50 1 1 P
+X Pin_2 2 -200 500 150 R 50 50 1 1 P
+X Pin_3 3 -200 400 150 R 50 50 1 1 P
+X Pin_4 4 -200 300 150 R 50 50 1 1 P
+X Pin_5 5 -200 200 150 R 50 50 1 1 P
+X Pin_6 6 -200 100 150 R 50 50 1 1 P
+X Pin_7 7 -200 0 150 R 50 50 1 1 P
+X Pin_8 8 -200 -100 150 R 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x03_Odd_Even
+#
+DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x18_Odd_Even
+#
+DEF Connector_Generic_Conn_02x18_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 900 50 H V C CNN
+F1 "Connector_Generic_Conn_02x18_Odd_Even" 50 -1000 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -895 0 -905 1 1 6 N
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 805 0 795 1 1 6 N
+S -50 850 150 -950 1 1 10 f
+S 150 -895 100 -905 1 1 6 N
+S 150 -795 100 -805 1 1 6 N
+S 150 -695 100 -705 1 1 6 N
+S 150 -595 100 -605 1 1 6 N
+S 150 -495 100 -505 1 1 6 N
+S 150 -395 100 -405 1 1 6 N
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+S 150 405 100 395 1 1 6 N
+S 150 505 100 495 1 1 6 N
+S 150 605 100 595 1 1 6 N
+S 150 705 100 695 1 1 6 N
+S 150 805 100 795 1 1 6 N
+X Pin_1 1 -200 800 150 R 50 50 1 1 P
+X Pin_10 10 300 400 150 L 50 50 1 1 P
+X Pin_11 11 -200 300 150 R 50 50 1 1 P
+X Pin_12 12 300 300 150 L 50 50 1 1 P
+X Pin_13 13 -200 200 150 R 50 50 1 1 P
+X Pin_14 14 300 200 150 L 50 50 1 1 P
+X Pin_15 15 -200 100 150 R 50 50 1 1 P
+X Pin_16 16 300 100 150 L 50 50 1 1 P
+X Pin_17 17 -200 0 150 R 50 50 1 1 P
+X Pin_18 18 300 0 150 L 50 50 1 1 P
+X Pin_19 19 -200 -100 150 R 50 50 1 1 P
+X Pin_2 2 300 800 150 L 50 50 1 1 P
+X Pin_20 20 300 -100 150 L 50 50 1 1 P
+X Pin_21 21 -200 -200 150 R 50 50 1 1 P
+X Pin_22 22 300 -200 150 L 50 50 1 1 P
+X Pin_23 23 -200 -300 150 R 50 50 1 1 P
+X Pin_24 24 300 -300 150 L 50 50 1 1 P
+X Pin_25 25 -200 -400 150 R 50 50 1 1 P
+X Pin_26 26 300 -400 150 L 50 50 1 1 P
+X Pin_27 27 -200 -500 150 R 50 50 1 1 P
+X Pin_28 28 300 -500 150 L 50 50 1 1 P
+X Pin_29 29 -200 -600 150 R 50 50 1 1 P
+X Pin_3 3 -200 700 150 R 50 50 1 1 P
+X Pin_30 30 300 -600 150 L 50 50 1 1 P
+X Pin_31 31 -200 -700 150 R 50 50 1 1 P
+X Pin_32 32 300 -700 150 L 50 50 1 1 P
+X Pin_33 33 -200 -800 150 R 50 50 1 1 P
+X Pin_34 34 300 -800 150 L 50 50 1 1 P
+X Pin_35 35 -200 -900 150 R 50 50 1 1 P
+X Pin_36 36 300 -900 150 L 50 50 1 1 P
+X Pin_4 4 300 700 150 L 50 50 1 1 P
+X Pin_5 5 -200 600 150 R 50 50 1 1 P
+X Pin_6 6 300 600 150 L 50 50 1 1 P
+X Pin_7 7 -200 500 150 R 50 50 1 1 P
+X Pin_8 8 300 500 150 L 50 50 1 1 P
+X Pin_9 9 -200 400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_RJ45_LED
+#
+DEF Connector_RJ45_LED J 0 40 Y Y 1 F N
+F0 "J" -200 550 50 H V R CNN
+F1 "Connector_RJ45_LED" 50 550 50 H V L CNN
+F2 "" 0 25 50 V I C CNN
+F3 "" 0 25 50 V I C CNN
+ALIAS RJ45_LED
+$FPLIST
+ 8P8C*
+ RJ45*
+$ENDFPLIST
+DRAW
+S 300 500 -300 -400 0 1 10 f
+P 2 0 1 0 -300 -300 -250 -300 N
+P 2 0 1 0 -300 -200 -250 -200 N
+P 2 0 1 0 -300 300 -250 300 N
+P 2 0 1 0 -300 400 -250 400 N
+P 2 0 1 0 -270 -230 -230 -230 N
+P 2 0 1 0 -270 370 -230 370 N
+P 2 0 1 0 -250 -300 -250 -270 N
+P 2 0 1 0 -250 -200 -250 -230 N
+P 2 0 1 0 -250 300 -250 330 N
+P 2 0 1 0 -250 400 -250 370 N
+P 2 0 1 0 -200 -245 -205 -260 N
+P 2 0 1 0 -200 -220 -205 -235 N
+P 2 0 1 0 -200 175 -250 175 N
+P 2 0 1 0 -200 225 -250 225 N
+P 2 0 1 0 -200 355 -205 340 N
+P 2 0 1 0 -200 380 -205 365 N
+P 3 0 1 0 -250 -125 -200 -125 -200 -125 N
+P 3 0 1 0 -250 -75 -200 -75 -200 -75 N
+P 3 0 1 0 -250 -25 -200 -25 -200 -25 N
+P 3 0 1 0 -250 25 -200 25 -200 25 N
+P 3 0 1 0 -250 75 -200 75 -200 75 N
+P 3 0 1 0 -220 -265 -200 -245 -215 -250 N
+P 3 0 1 0 -220 -240 -200 -220 -215 -225 N
+P 3 0 1 0 -220 335 -200 355 -215 350 N
+P 3 0 1 0 -220 360 -200 380 -215 375 N
+P 3 0 1 0 -200 125 -250 125 -250 125 N
+P 4 0 1 0 -250 -230 -270 -270 -230 -270 -250 -230 N
+P 4 0 1 0 -250 370 -270 330 -230 330 -250 370 N
+P 14 0 1 0 -250 -175 -250 275 150 275 150 175 200 175 200 125 250 125 250 -25 200 -25 200 -75 150 -75 150 -175 -250 -175 -250 -175 N
+X ~ 1 400 -300 100 L 50 50 1 1 P
+X ~ 10 -400 300 100 R 50 50 1 1 P
+X ~ 11 -400 -200 100 R 50 50 1 1 P
+X ~ 12 -400 -300 100 R 50 50 1 1 P
+X ~ 2 400 -200 100 L 50 50 1 1 P
+X ~ 3 400 -100 100 L 50 50 1 1 P
+X ~ 4 400 0 100 L 50 50 1 1 P
+X ~ 5 400 100 100 L 50 50 1 1 P
+X ~ 6 400 200 100 L 50 50 1 1 P
+X ~ 7 400 300 100 L 50 50 1 1 P
+X ~ 8 400 400 100 L 50 50 1 1 P
+X ~ 9 -400 400 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CustomLibrary_AP7313
+#
+DEF CustomLibrary_AP7313 LDO 0 40 Y Y 1 F N
+F0 "LDO" 0 175 50 H V C CNN
+F1 "CustomLibrary_AP7313" 0 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" 0 400 50 H I C CNN
+F3 "" 0 25 50 H I C CNN
+DRAW
+S -175 100 -175 100 0 1 0 N
+S -175 125 175 -200 0 1 0 f
+X IN 1 -275 50 100 R 50 50 1 1 I
+X OUT 2 275 50 100 L 50 50 1 1 O
+X GND 3 0 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Device_Battery_Cell
+#
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CP1
+#
+DEF Device_CP1 C 0 10 N N 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_CP1" 25 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
+P 2 0 1 20 -80 30 80 30 N
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 70 -50 110 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CP1_Small
+#
+DEF Device_CP1_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP1_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Ferrite_Bead_Small
+#
+DEF Device_Ferrite_Bead_Small FB 0 0 N Y 1 F N
+F0 "FB" 75 50 50 H V L CNN
+F1 "Device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -31 N
+P 2 0 1 0 0 35 0 51 N
+P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
+X ~ 1 0 100 50 D 50 50 1 1 P
+X ~ 2 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Jumper_NO_Small
+#
+DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED_Small
+#
+DEF Device_LED_Small D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Device_LED_Small" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 10 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Polyfuse_Small
+#
+DEF Device_Polyfuse_Small F 0 0 N Y 1 F N
+F0 "F" -75 0 50 V V C CNN
+F1 "Device_Polyfuse_Small" 75 0 50 V V C CNN
+F2 "" 50 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *polyfuse*
+ *PTC*
+$ENDFPLIST
+DRAW
+S -20 50 20 -50 0 1 0 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 -40 50 -40 30 40 -30 40 -50 N
+X ~ 1 0 100 25 D 50 50 1 1 P
+X ~ 2 0 -100 25 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_POT_Small
+#
+DEF Device_R_POT_Small RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_POT_Small" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 30 71 -30 -71 0 1 10 N
+P 6 0 1 0 35 0 25 0 65 15 65 -15 25 0 35 0 F
+X 1 1 0 100 25 D 25 25 1 1 P
+X 2 2 100 0 39 L 25 25 1 1 P
+X 3 3 0 -100 25 U 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Speaker
+#
+DEF Device_Speaker LS 0 0 Y N 1 F N
+F0 "LS" 50 225 50 H V R CNN
+F1 "Device_Speaker" 50 150 50 H V R CNN
+F2 "" 0 -200 50 H I C CNN
+F3 "" -10 -50 50 H I C CNN
+DRAW
+S -100 50 40 -150 0 0 10 N
+P 4 0 0 10 40 50 140 150 140 -250 40 -150 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_2_Bridged
+#
+DEF Jumper_SolderJumper_2_Bridged JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Bridged" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+S -20 20 20 -20 0 1 0 F
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_2_Open
+#
+DEF Jumper_SolderJumper_2_Open JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Open" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_3_Bridged12
+#
+DEF Jumper_SolderJumper_3_Bridged12 JP 0 0 Y N 1 F N
+F0 "JP" -100 -100 50 H V C CNN
+F1 "Jumper_SolderJumper_3_Bridged12" 0 110 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged12*
+$ENDFPLIST
+DRAW
+A -40 0 40 901 -901 0 1 0 N -40 40 -40 -40
+A -40 0 40 901 -901 0 1 0 F -40 40 -40 -40
+A 40 0 40 -899 899 0 1 0 N 40 -40 40 40
+A 40 0 40 -899 899 0 1 0 F 40 -40 40 40
+S -40 20 -20 -20 0 1 0 F
+S -20 40 20 -40 0 1 0 F
+P 2 0 1 0 -100 0 -80 0 N
+P 2 0 1 0 -40 40 -40 -40 N
+P 2 0 1 0 0 -50 0 -40 N
+P 2 0 1 0 40 40 40 -40 N
+P 2 0 1 0 100 0 80 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X C 2 0 -150 100 U 50 50 1 1 I
+X B 3 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RF_Module_ESP-WROOM-02
+#
+DEF RF_Module_ESP-WROOM-02 U 0 20 Y Y 1 F N
+F0 "U" -300 550 50 H V C CNN
+F1 "RF_Module_ESP-WROOM-02" 400 550 50 H V C CNN
+F2 "RF_Module:ESP-WROOM-02" 600 -550 50 H I C CNN
+F3 "" 50 1500 50 H I C CNN
+$FPLIST
+ ESP?WROOM?02*
+$ENDFPLIST
+DRAW
+S 400 500 -400 -500 0 1 10 f
+X VDD 1 0 600 100 D 50 50 1 1 W
+X IO4 10 500 200 100 L 50 50 1 1 B
+X RXD 11 -500 -100 100 R 50 50 1 1 B
+X TXD 12 -500 -200 100 R 50 50 1 1 B
+X GND 13 0 -600 100 U 50 50 1 1 P N
+X IO5 14 500 100 100 L 50 50 1 1 B
+X RST 15 -500 300 100 R 50 50 1 1 I
+X TOUT 16 -500 100 100 R 50 50 1 1 I
+X IO16 17 500 -400 100 L 50 50 1 1 B
+X GND 18 0 -600 100 U 50 50 1 1 P N
+X GND 19 0 -600 100 U 50 50 1 1 P N
+X EN 2 -500 400 100 R 50 50 1 1 I
+X IO14 3 500 -200 100 L 50 50 1 1 B
+X IO12 4 500 0 100 L 50 50 1 1 B
+X IO13 5 500 -100 100 L 50 50 1 1 B
+X IO15 6 500 -300 100 L 50 50 1 1 B
+X IO2 7 500 300 100 L 50 50 1 1 B
+X IO0 8 500 400 100 L 50 50 1 1 B
+X GND 9 0 -600 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_DPST_x2
+#
+DEF Switch_SW_DPST_x2 SW 0 0 Y N 2 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "Switch_SW_DPST_x2" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+X A 3 -200 0 100 R 50 50 2 1 P
+X B 4 200 0 100 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push_Dual_x2
+#
+DEF Switch_SW_Push_Dual_x2 SW 0 40 Y N 2 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push_Dual_x2" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X C 1 -200 0 100 R 50 50 1 1 P
+X D 2 200 0 100 L 50 50 1 1 P
+X C 3 -200 0 100 R 50 50 2 1 P
+X D 4 200 0 100 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_FET_FDN340P
+#
+DEF Transistor_FET_FDN340P Q 0 20 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_FET_FDN340P" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS VP0610T BSS84 NTR2101P BSS83P Si2319CDS IRLML6401 IRLML6402 DMG2301L AO3401A IRLML9301 IRLML5203 Si2371EDS TSM2301ACX FDN340P
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 70 130 70 130 -70 30 -70 N
+P 4 0 1 0 90 0 50 15 50 -15 90 0 F
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 100 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Barrel-Audio-Connectors_SJ-3523-SMT-TR
+#
+DEF dk_Barrel-Audio-Connectors_SJ-3523-SMT-TR CON 0 0 N Y 1 F N
+F0 "CON" -300 250 60 H V L CNN
+F1 "dk_Barrel-Audio-Connectors_SJ-3523-SMT-TR" -50 -250 60 H V C CNN
+F2 "digikey-footprints:Switch_Slide_11.6x4mm_SJ-3523-SMT" 200 200 60 H I L CNN
+F3 "https://www.cui.com/product/resource/digikeypdf/sj-352x-smt_series.pdf" 200 300 60 H I L CNN
+F4 "CP-3523SJCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "SJ-3523-SMT-TR" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Barrel - Audio Connectors" 200 700 60 H I L CNN "Family"
+F8 "https://www.cui.com/product/resource/digikeypdf/sj-352x-smt_series.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/cui-inc/SJ-3523-SMT-TR/CP-3523SJCT-ND/669704" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN JACK STEREO 3.5MM SMD R/A" 200 1000 60 H I L CNN "Description"
+F11 "CUI Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 200 200 -300 -200 0 1 0 f
+P 4 0 1 0 200 0 100 0 50 -50 0 0 N
+P 4 0 1 0 200 100 0 100 -50 50 -100 100 N
+P 6 0 1 0 200 -100 -150 -100 -150 100 -200 100 -200 -50 -150 -50 N
+X S 1 400 -100 200 L 50 50 1 1 P
+X T 2 400 0 200 L 50 50 1 1 P
+X R 3 400 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Barrel-Power-Connectors_PJ-102A
+#
+DEF dk_Barrel-Power-Connectors_PJ-102A J 0 40 Y Y 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "dk_Barrel-Power-Connectors_PJ-102A" 0 -250 50 H V C CNN
+F2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" 200 200 60 H I L CNN
+F3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" 200 300 60 H I L CNN
+F4 "CP-102A-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "PJ-102A" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Barrel - Power Connectors" 200 700 60 H I L CNN "Family"
+F8 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN PWR JACK 2X5.5MM SOLDER" 200 1000 60 H I L CNN "Description"
+F11 "CUI Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+A -175 0 25 901 -901 0 1 0 N -175 25 -175 -25
+S -25 50 0 -50 0 1 0 N
+P 2 0 1 0 -25 -25 -175 -25 N
+P 2 0 1 0 -25 25 -175 25 N
+P 3 0 1 0 0 -100 -50 -100 -100 -100 N
+P 4 0 1 0 0 -200 -150 -200 -200 -150 -250 -200 N
+P 5 0 1 0 -100 -100 -125 -100 -100 -150 -75 -100 -100 -100 N
+X ~ 1 100 0 100 L 50 50 1 1 P
+X ~ 2 100 -200 100 L 50 50 1 1 P
+X ~ 3 100 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Diodes-Rectifiers-Single_1N4148
+#
+DEF dk_Diodes-Rectifiers-Single_1N4148 D 0 40 Y Y 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "dk_Diodes-Rectifiers-Single_1N4148" 50 -150 50 H V C CNN
+F2 "digikey-footprints:Diode_DO-35_P10mm" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" 200 300 60 H I L CNN
+F4 "1N4148FS-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "1N4148" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Diodes - Rectifiers - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "DIODE GEN PURP 100V 200MA DO35" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 0 0 100 0 N
+P 2 0 1 0 0 50 0 -50 N
+P 4 0 1 0 100 50 100 -50 0 0 100 50 F
+X ~ 1 -100 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Diodes-Rectifiers-Single_SS14
+#
+DEF dk_Diodes-Rectifiers-Single_SS14 D 0 40 Y Y 1 F N
+F0 "D" 50 100 50 H V C CNN
+F1 "dk_Diodes-Rectifiers-Single_SS14" 50 -100 50 H V C CNN
+F2 "digikey-footprints:DO-214AC" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/SS19-D.PDF" 200 300 60 H I L CNN
+F4 "SS14CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "SS14" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Diodes - Rectifiers - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/SS19-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "DIODE SCHOTTKY 40V 1A SMA" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 0 0 100 0 N
+P 2 0 1 0 0 50 0 -50 N
+P 4 0 1 0 100 50 100 -50 0 0 100 50 F
+X ~ A 200 0 100 L 50 50 1 1 P
+X ~ K -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Ferrite-Beads-and-Chips_BLM18PG121SN1D
+#
+DEF dk_Ferrite-Beads-and-Chips_BLM18PG121SN1D FB 0 40 Y Y 1 F N
+F0 "FB" -150 150 60 H V C CNN
+F1 "dk_Ferrite-Beads-and-Chips_BLM18PG121SN1D" 0 -150 60 H V L CNN
+F2 "digikey-footprints:0603" 200 200 60 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
+F4 "490-1037-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BLM18PG121SN1D" 200 500 60 H I L CNN "MPN"
+F6 "Filters" 200 600 60 H I L CNN "Category"
+F7 "Ferrite Beads and Chips" 200 700 60 H I L CNN "Family"
+F8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/murata-electronics-north-america/BLM18PG121SN1D/490-1037-1-ND/584485" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "FERRITE BEAD 120 OHM 0603 1LN" 200 1000 60 H I L CNN "Description"
+F11 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Ferrite-Beads-and-Chips_MPZ2012S601AT000
+#
+DEF dk_Ferrite-Beads-and-Chips_MPZ2012S601AT000 FB 0 40 Y Y 1 F N
+F0 "FB" -150 150 60 H V C CNN
+F1 "dk_Ferrite-Beads-and-Chips_MPZ2012S601AT000" 0 -150 60 H V L CNN
+F2 "digikey-footprints:0805" 200 200 60 H I L CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" 200 300 60 H I L CNN
+F4 "445-2206-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MPZ2012S601AT000" 200 500 60 H I L CNN "MPN"
+F6 "Filters" 200 600 60 H I L CNN "Category"
+F7 "Ferrite Beads and Chips" 200 700 60 H I L CNN "Family"
+F8 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz2012_en.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/tdk-corporation/MPZ2012S601AT000/445-2206-1-ND/765104" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "FERRITE BEAD 600 OHM 0805 1LN" 200 1000 60 H I L CNN "Description"
+F11 "TDK Corporation" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Linear-Amplifiers-Audio_MAX9744ETH_T
+#
+DEF dk_Linear-Amplifiers-Audio_MAX9744ETH_T U 0 40 Y Y 1 F N
+F0 "U" -600 950 60 H V C CNN
+F1 "dk_Linear-Amplifiers-Audio_MAX9744ETH_T" -100 -600 60 V V L CNN
+F2 "digikey-footprints:TQFN-44-1EP_7x7mm" 1650 550 60 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX9744.pdf" 1625 675 60 H I L CNN
+F4 "MAX9744ETH+TCT-ND" 1625 750 60 H I L CNN "Digi-Key_PN"
+F5 "MAX9744ETH+T" 1600 850 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 1600 950 60 H I L CNN "Category"
+F7 "Linear - Amplifiers - Audio" 1625 1075 60 H I L CNN "Family"
+F8 "https://datasheets.maximintegrated.com/en/ds/MAX9744.pdf" 1600 1175 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/maxim-integrated/MAX9744ETH-T/MAX9744ETH-TCT-ND/2708799" 1575 1300 60 H I L CNN "DK_Detail_Page"
+F10 "IC AMP AUDIO PWR 22.5W D 44TQFN" 1575 1375 60 H I L CNN "Description"
+F11 "Maxim Integrated" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -700 900 500 -1500 0 1 0 f
+X BOOTL+ 1 600 600 100 L 50 50 1 1 O
+X VDD 10 -200 1000 100 D 50 50 1 1 W
+X GND 11 -475 -1600 100 U 50 50 1 1 W
+X GND 12 -375 -1600 100 U 50 50 1 1 W
+X ADDR1 13 -800 -600 100 R 50 50 1 1 I
+X ADDR2 14 -800 -700 100 R 50 50 1 1 I
+X GND 15 -275 -1600 100 U 50 50 1 1 W
+X INL 16 -800 500 100 R 50 50 1 1 I
+X FBL 17 -800 600 100 R 50 50 1 1 P
+X FBR 18 -800 125 100 R 50 50 1 1 P
+X INR 19 -800 225 100 R 50 50 1 1 I
+X OUTL+ 2 600 500 100 L 50 50 1 1 O
+X BIAS 20 600 -1025 100 L 50 50 1 1 P
+X VDD 21 -300 1000 100 D 50 50 1 1 W
+X ~SHDN 22 -800 -300 100 R 50 50 1 1 I
+X NC 23 -800 -1175 100 R 50 50 1 1 N
+X MUTE 24 -800 -200 100 R 50 50 1 1 I
+X SYNC 25 -800 -975 100 R 50 50 1 1 I
+X SYNCOUT 26 600 -875 100 L 50 50 1 1 O
+X GND 27 -175 -1600 100 U 50 50 1 1 W
+X VDD 28 -400 1000 100 D 50 50 1 1 W
+X PVDD 29 200 1000 100 D 50 50 1 1 W
+X OUTL+ 3 600 400 100 L 50 50 1 1 O
+X PVDD 30 100 1000 100 D 50 50 1 1 W
+X OUTR+ 31 600 -250 100 L 50 50 1 1 O
+X OUTR+ 32 600 -350 100 L 50 50 1 1 O
+X BOOTR+ 33 600 -150 100 L 50 50 1 1 O
+X PGND 34 -75 -1600 100 U 50 50 1 1 W
+X PGND 35 25 -1600 100 U 50 50 1 1 W
+X OUTR- 36 600 -625 100 L 50 50 1 1 O
+X OUTR- 37 600 -525 100 L 50 50 1 1 O
+X BOOTR- 38 600 -725 100 L 50 50 1 1 O
+X PGND 39 125 -1600 100 U 50 50 1 1 W
+X PVDD 4 400 1000 100 D 50 50 1 1 W
+X BOOTL- 40 600 25 100 L 50 50 1 1 O
+X OUTL- 41 600 125 100 L 50 50 1 1 O
+X OUTL- 42 600 225 100 L 50 50 1 1 O
+X PGND 43 225 -1600 100 U 50 50 1 1 W
+X PGND 44 325 -1600 100 U 50 50 1 1 W
+X PGND/PAD 45 425 -1600 100 U 50 50 1 1 W
+X PVDD 5 300 1000 100 D 50 50 1 1 W
+X VDD 6 -100 1000 100 D 50 50 1 1 W
+X GND 7 -575 -1600 100 U 50 50 1 1 W
+X SDA/VOL 8 -800 -400 100 R 50 50 1 1 B
+X SCLK/PWM 9 -800 -500 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# dk_Microphones_CMA-4544PF-W
+#
+DEF dk_Microphones_CMA-4544PF-W MIC 0 40 Y Y 1 F N
+F0 "MIC" -44 111 60 H V C CNN
+F1 "dk_Microphones_CMA-4544PF-W" 200 -250 60 H V R CNN
+F2 "digikey-footprints:Mic_CMA-4544PF-W" 200 200 60 H I L CNN
+F3 "https://www.cui.com/product/resource/digikeypdf/cma-4544pf-w.pdf" 200 300 60 H I L CNN
+F4 "102-1721-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "CMA-4544PF-W" 200 500 60 H I L CNN "MPN"
+F6 "Audio Products" 200 600 60 H I L CNN "Category"
+F7 "Microphones" 200 700 60 H I L CNN "Family"
+F8 "https://www.cui.com/product/resource/digikeypdf/cma-4544pf-w.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/cui-inc/CMA-4544PF-W/102-1721-ND/1869981" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MIC COND ANALOG OMNI -44DB" 200 1000 60 H I L CNN "Description"
+F11 "CUI Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+A -20 -34 63 1800 -9 0 1 0 N -83 -34 43 -35
+A -20 -33 67 -1790 8 0 1 0 N -87 -34 47 -32
+A -20 -32 60 -1781 -19 0 1 0 N -80 -34 40 -34
+A -19 -35 55 1800 -10 0 1 0 N -74 -35 36 -36
+A -19 -34 35 -1799 -1 0 1 0 F -54 -34 16 -34
+A -19 -34 70 -1799 -1 0 1 0 N -89 -34 51 -34
+A -19 16 35 1 1799 0 1 0 F 16 16 -54 16
+C -19 -49 120 0 1 0 f
+S -129 -169 -139 71 0 1 0 F
+S -89 -34 -69 11 0 1 0 F
+S -54 -114 16 -129 0 1 0 F
+S -54 16 16 -34 0 1 0 F
+S -34 -114 -4 -104 0 1 0 F
+S 51 -34 31 11 0 1 0 F
+X ~ 1 200 0 110 L 50 50 1 1 P
+X ~ 2 200 -100 110 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_PMIC-Voltage-Regulators-Linear_MIC5219-3_3YM5-TR
+#
+DEF dk_PMIC-Voltage-Regulators-Linear_MIC5219-3_3YM5-TR U 0 20 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "dk_PMIC-Voltage-Regulators-Linear_MIC5219-3_3YM5-TR" 0 250 60 H V C CNN
+F2 "digikey-footprints:SOT-753" 200 200 60 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579712" 200 300 60 H I L CNN
+F4 "576-1281-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MIC5219-3.3YM5-TR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579712" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MIC5219-3.3YM5-TR/576-1281-1-ND/771902" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 3.3V 500MA SOT23-5" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 200 -200 0 1 0 f
+X IN 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -300 -100 100 R 50 50 1 1 I
+X BYP 4 300 -100 100 L 50 50 1 1 P
+X OUT 5 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# dk_PMIC-Voltage-Regulators-Linear_NCP1117ST33T3G
+#
+DEF dk_PMIC-Voltage-Regulators-Linear_NCP1117ST33T3G U 0 40 Y Y 1 F N
+F0 "U" 100 150 60 H V C CNN
+F1 "dk_PMIC-Voltage-Regulators-Linear_NCP1117ST33T3G" 100 250 60 H V C CNN
+F2 "digikey-footprints:SOT-223" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 200 300 60 H I L CNN
+F4 "NCP1117ST33T3GOSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NCP1117ST33T3G" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/NCP1117ST33T3G/NCP1117ST33T3GOSCT-ND/660708" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 3.3V 1A SOT223" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 300 -300 0 1 0 f
+X ADJ/GND 1 0 -400 100 U 50 50 1 1 W
+X OUT 2 400 0 100 L 50 50 1 1 w
+X IN 3 -300 0 100 R 50 50 1 1 W
+X OUT 4 400 -100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# dk_PMIC-Voltage-Regulators-Linear_NCP1117ST50T3G
+#
+DEF dk_PMIC-Voltage-Regulators-Linear_NCP1117ST50T3G U 0 20 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "dk_PMIC-Voltage-Regulators-Linear_NCP1117ST50T3G" 0 250 60 H V C CNN
+F2 "digikey-footprints:SOT-223" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 200 300 60 H I L CNN
+F4 "NCP1117ST50T3GOSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NCP1117ST50T3G" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/NCP1117ST50T3G/NCP1117ST50T3GOSCT-ND/1967217" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 5V 1A SOT223" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 300 -300 0 1 0 f
+X ADJ/GND 1 0 -400 100 U 50 50 1 1 W
+X OUT 2 400 0 100 L 50 50 1 1 w
+X IN 3 -300 0 100 R 50 50 1 1 W
+X OUT 4 400 -100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_M20-9990246
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_M20-9990246 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_M20-9990246" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x2_P2.54mm" 200 200 60 H I L CNN
+F3 "https://cdn.harwin.com/pdfs/M20-999.pdf" 200 300 60 H I L CNN
+F4 "952-2262-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "M20-9990246" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://cdn.harwin.com/pdfs/M20-999.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/harwin-inc/M20-9990246/952-2262-ND/3728226" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 2POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "Harwin Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Transistors-FETs-MOSFETs-Single_BSS138
+#
+DEF dk_Transistors-FETs-MOSFETs-Single_BSS138 Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "dk_Transistors-FETs-MOSFETs-Single_BSS138" 136 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" 200 300 60 H I L CNN
+F4 "BSS138CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BSS138" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/BSS138/BSS138CT-ND/244294" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 50V 220MA SOT-23" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# dk_USB-DVI-HDMI-Connectors_73725-0110BLF
+#
+DEF dk_USB-DVI-HDMI-Connectors_73725-0110BLF J 0 40 Y Y 1 F N
+F0 "J" -40 362 60 H V C CNN
+F1 "dk_USB-DVI-HDMI-Connectors_73725-0110BLF" -150 0 60 V V C CNN
+F2 "digikey-footprints:USB_A_Female_Vertical_RA_73725-0110BLF" 200 200 60 H I L CNN
+F3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/73725.pdf" 200 300 60 H I L CNN
+F4 "609-1041-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "73725-0110BLF" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "USB, DVI, HDMI Connectors" 200 700 60 H I L CNN "Family"
+F8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/73725.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/amphenol-icc-fci/73725-0110BLF/609-1041-ND/1001355" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN RCPT USB2.0 TYPEA 4POS R/A" 200 1000 60 H I L CNN "Description"
+F11 "Amphenol ICC (FCI)" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 -175 -75 275 0 1 0 f
+S 50 250 0 -150 0 1 0 N
+S 100 -75 75 -125 0 1 0 F
+S 100 25 75 -25 0 1 0 F
+S 100 125 75 75 0 1 0 F
+S 100 175 75 225 0 1 0 F
+S 150 -200 -25 -225 0 1 0 f
+S 150 300 -25 325 0 1 0 f
+S 175 275 200 -175 0 1 0 f
+P 2 0 1 0 50 -150 75 -175 N
+P 2 0 1 0 50 250 75 275 N
+P 2 0 1 0 100 -250 100 -225 N
+P 2 0 1 0 200 -100 100 -100 N
+P 2 0 1 0 200 0 100 0 N
+P 2 0 1 0 200 100 100 100 N
+P 2 0 1 0 200 200 100 200 N
+P 19 0 1 0 -25 250 -25 -150 -25 -157 -24 -162 -22 -169 -16 -174 -9 -175 -5 -174 -3 -175 -2 -174 0 -175 75 -175 75 275 0 275 -7 272 -16 267 -20 263 -23 259 -25 250 N
+P 25 0 1 0 -25 -200 150 -200 156 -198 164 -195 168 -189 172 -185 173 -179 175 -175 175 275 174 279 174 280 173 286 167 294 160 299 150 300 -25 300 -32 298 -44 289 -48 281 -50 275 -50 -175 -48 -184 -42 -193 -36 -198 -25 -200 f
+X ~ 1 300 -100 100 L 50 50 1 1 P
+X ~ 2 300 0 100 L 50 50 1 1 P
+X ~ 3 300 100 100 L 50 50 1 1 P
+X ~ 4 300 200 100 L 50 50 1 1 P
+X ~ SH 100 -350 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDA
+#
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDD
+#
+DEF power_VDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDDF
+#
+DEF power_VDDF #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VDDF" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VDDF 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# teensy_Teensy4.1
+#
+DEF teensy_Teensy4.1 U 0 40 Y Y 1 F N
+F0 "U" 0 2550 50 H V C CNN
+F1 "teensy_Teensy4.1" 0 2450 50 H V C CNN
+F2 "" -400 400 50 H I C CNN
+F3 "" -400 400 50 H I C CNN
+DRAW
+T 0 450 1950 40 0 0 0 "(250mA max)" Normal 0 C C
+T 0 450 2150 40 0 0 0 "(3.6v to 5.5v)" Normal 0 C C
+T 900 -550 -400 50 0 0 0 Device Normal 0 C C
+T 900 625 -675 50 0 0 0 Ethernet Normal 0 C C
+T 900 -550 -800 50 0 0 0 Host Normal 0 C C
+T 900 -625 -800 50 0 0 0 USB Normal 0 C C
+T 900 -625 -400 50 0 0 0 USB Normal 0 C C
+S -900 2400 900 -1100 0 1 0 N
+S -800 -50 -800 -50 0 1 0 N
+P 2 0 0 0 -900 -250 900 -250 N
+P 2 0 0 0 -700 -1050 -700 -550 N
+P 2 0 0 0 -700 -300 -700 -500 N
+P 2 0 0 0 700 -375 700 -975 N
+X 8_TX2_IN1 10 -1100 1250 200 R 50 50 0 0 B
+X 9_OUT1C 11 -1100 1150 200 R 50 50 0 0 B
+X 10_CS_MQSR 12 -1100 1050 200 R 50 50 0 0 B
+X 11_MOSI_CTX1 13 -1100 950 200 R 50 50 0 0 B
+X 12_MISO_MQSL 14 -1100 850 200 R 50 50 0 0 B
+X 3V3 15 -1100 750 200 R 50 50 0 0 W
+X 24_A10_TX6_SCL2 16 -1100 650 200 R 50 50 0 0 B
+X 25_A11_RX6_SDA2 17 -1100 550 200 R 50 50 0 0 B
+X 26_A12_MOSI1 18 -1100 450 200 R 50 50 0 0 B
+X 27_A13_SCK1 19 -1100 350 200 R 50 50 0 0 B
+X 28_RX7 20 -1100 250 200 R 50 50 0 0 B
+X 29_TX7 21 -1100 150 200 R 50 50 0 0 B
+X 30_CRX3 22 -1100 50 200 R 50 50 0 0 B
+X 31_CTX3 23 -1100 -50 200 R 50 50 0 0 B
+X 32_OUT1B 24 -1100 -150 200 R 50 50 0 0 B
+X 33_MCLK2 25 1100 -150 200 L 50 50 0 0 B
+X 34_RX8 26 1100 -50 200 L 50 50 0 0 B
+X 35_TX8 27 1100 50 200 L 50 50 0 0 B
+X 36_CS 28 1100 150 200 L 50 50 0 0 B
+X 37_CS 29 1100 250 200 L 50 50 0 0 B
+X 38_CS1_IN1 30 1100 350 200 L 50 50 0 0 B
+X 39_MISO1_OUT1A 31 1100 450 200 L 50 50 0 0 B
+X 40_A16 32 1100 550 200 L 50 50 0 0 B
+X 41_A17 33 1100 650 200 L 50 50 0 0 B
+X 13_SCK_LED 35 1100 850 200 L 50 50 0 0 B
+X 14_A0_TX3_SPDIF_OUT 36 1100 950 200 L 50 50 0 0 B
+X 15_A1_RX3_SPDIF_IN 37 1100 1050 200 L 50 50 0 0 B
+X 16_A2_RX4_SCL1 38 1100 1150 200 L 50 50 0 0 B
+X 17_A3_TX4_SDA1 39 1100 1250 200 L 50 50 0 0 B
+X 18_A4_SDA 40 1100 1350 200 L 50 50 0 0 B
+X 19_A5_SCL 41 1100 1450 200 L 50 50 0 0 B
+X 20_A6_TX5_LRCLK1 42 1100 1550 200 L 50 50 0 0 B
+X 21_A7_RX5_BCLK1 43 1100 1650 200 L 50 50 0 0 B
+X 22_A8_CTX1 44 1100 1750 200 L 50 50 0 0 B
+X 23_A9_CRX1_MCLK1 45 1100 1850 200 L 50 50 0 0 B
+X 3V3 46 1100 1950 200 L 50 50 0 0 O
+X GND 47 1100 2050 200 L 50 50 0 0 O
+X VIN 48 1100 2150 200 L 50 50 0 0 W
+X VUSB 49 1100 2300 200 L 50 50 0 0 w
+X 3_LRCLK2 5 -1100 1750 200 R 50 50 0 0 B
+X VBAT 50 -300 -1300 200 U 50 50 0 0 W
+X 3V3 51 -150 -1300 200 U 50 50 0 0 W
+X GND 52 0 -1300 200 U 50 50 0 0 I
+X PROGRAM 53 150 -1300 200 U 50 50 0 0 I
+X ON_OFF 54 300 -1300 200 U 50 50 0 0 I
+X 5V 55 -1100 -600 200 R 50 50 0 0 w
+X D- 56 -1100 -700 200 R 50 50 0 0 B
+X D+ 57 -1100 -800 200 R 50 50 0 0 B
+X GND 58 -1100 -900 200 R 50 50 0 0 W
+X GND 59 -1100 -1000 200 R 50 50 0 0 W
+X 4_BCLK2 6 -1100 1650 200 R 50 50 0 0 B
+X R+ 60 1100 -900 200 L 50 50 0 0 B
+X LED 61 1100 -800 200 L 50 50 0 0 B
+X T- 62 1100 -700 200 L 50 50 0 0 B
+X T+ 63 1100 -600 200 L 50 50 0 0 B
+X GND 64 1100 -500 200 L 50 50 0 0 W
+X R- 65 1100 -400 200 L 50 50 0 0 B
+X D- 66 -1100 -350 200 R 50 50 0 0 B
+X D+ 67 -1100 -450 200 R 50 50 0 0 B
+X 5_IN2 7 -1100 1550 200 R 50 50 0 0 B
+X 6_OUT1D 8 -1100 1450 200 R 50 50 0 0 B
+X 7_RX2_OUT1A 9 -1100 1350 200 R 50 50 0 0 B
+X GND 1 -1100 2150 200 R 50 50 1 1 W
+X 0_RX1_CRX2_CS1 2 -1100 2050 200 R 50 50 1 1 B
+X 1_TX1_CTX2_MISO1 3 -1100 1950 200 R 50 50 1 1 B
+X GND 34 1100 750 200 L 50 50 1 1 W
+X 2_OUT2 4 -1100 1850 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
