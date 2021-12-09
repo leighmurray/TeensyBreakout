@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TeensyBreakout-rescue)(type Legacy)(uri ${KIPRJMOD}/TeensyBreakout-rescue.lib)(options "")(descr ""))
+)

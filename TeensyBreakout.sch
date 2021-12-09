@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -2235,4 +2235,10 @@ Text Notes 1400 7025 0    35   ~ 0
 SS1P3L
 Wire Wire Line
 	1650 7300 1800 7300
+$Sheet
+S 7075 5000 675  225 
+U 61B0849E
+F0 "AmpV2" 50
+F1 "AmpV2.sch" 50
+$EndSheet
 $EndSCHEMATC
