@@ -1826,26 +1826,6 @@ Text Notes 5350 5800 0    197  ~ 0
 ETHERNET
 Wire Notes Line
 	7000 500  7000 6550
-$Comp
-L dk_Barrel-Power-Connectors:PJ-102A J4
-U 1 1 622FE636
-P 750 7400
-F 0 "J4" V 637 7488 50  0000 L CNN
-F 1 "PJ-102A" V 728 7488 50  0000 L CNN
-F 2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 950 7600 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 950 7700 60  0001 L CNN
-F 4 "CP-102A-ND" H 950 7800 60  0001 L CNN "Digi-Key_PN"
-F 5 "PJ-102A" H 950 7900 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 950 8000 60  0001 L CNN "Category"
-F 7 "Barrel - Power Connectors" H 950 8100 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 950 8200 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425" H 950 8300 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN PWR JACK 2X5.5MM SOLDER" H 950 8400 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 950 8500 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 950 8600 60  0001 L CNN "Status"
-	1    750  7400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	550  7550 550  7500
 Wire Wire Line
@@ -2116,4 +2096,24 @@ Wire Wire Line
 	3075 4250 3825 4250
 Wire Wire Line
 	3075 4350 3825 4350
+$Comp
+L dk_Barrel-Power-Connectors:PJ-102A J4
+U 1 1 622FE636
+P 750 7400
+F 0 "J4" V 637 7488 50  0000 L CNN
+F 1 "PJ-102A" V 728 7488 50  0000 L CNN
+F 2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 950 7600 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 950 7700 60  0001 L CNN
+F 4 "CP-102A-ND" H 950 7800 60  0001 L CNN "Digi-Key_PN"
+F 5 "PJ-102A" H 950 7900 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 950 8000 60  0001 L CNN "Category"
+F 7 "Barrel - Power Connectors" H 950 8100 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 950 8200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425" H 950 8300 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN PWR JACK 2X5.5MM SOLDER" H 950 8400 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 950 8500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 950 8600 60  0001 L CNN "Status"
+	1    750  7400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

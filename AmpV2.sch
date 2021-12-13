@@ -51,11 +51,7 @@ $EndComp
 Wire Wire Line
 	5250 1800 4925 1800
 Wire Wire Line
-	4725 1800 4600 1800
-Wire Wire Line
 	5250 2250 4925 2250
-Wire Wire Line
-	4725 2250 4600 2250
 Wire Wire Line
 	5250 1650 4500 1650
 $Comp
@@ -93,20 +89,7 @@ F 3 "" H 7075 1225 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5750 975  5750 1350
-Wire Wire Line
-	5750 975  5750 875 
 Connection ~ 5750 975 
-$Comp
-L power:VS #PWR0205
-U 1 1 61B74BFC
-P 5750 875
-F 0 "#PWR0205" H 5550 725 50  0001 C CNN
-F 1 "VS" H 5765 1048 50  0000 C CNN
-F 2 "" H 5750 875 50  0001 C CNN
-F 3 "" H 5750 875 50  0001 C CNN
-	1    5750 875 
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C43
 U 1 1 61B75472
@@ -643,41 +626,41 @@ Connection ~ 7975 1850
 $Comp
 L dk_Terminal-Blocks-Wire-to-Board:OSTTC022162 J6
 U 1 1 61C2CB5E
-P 9025 1475
-F 0 "J6" V 9024 1297 50  0000 R CNN
-F 1 "OSTTC022162" V 9115 1297 50  0000 R CNN
-F 2 "digikey-footprints:Term_Block_1x2_P5.08MM" H 9225 1675 60  0001 L CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9225 1775 60  0001 L CNN
-F 4 "ED2609-ND" H 9225 1875 60  0001 L CNN "Digi-Key_PN"
-F 5 "OSTTC022162" H 9225 1975 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 9225 2075 60  0001 L CNN "Category"
-F 7 "Terminal Blocks - Wire to Board" H 9225 2175 60  0001 L CNN "Family"
-F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9225 2275 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558" H 9225 2375 60  0001 L CNN "DK_Detail_Page"
-F 10 "TERM BLK 2P SIDE ENT 5.08MM PCB" H 9225 2475 60  0001 L CNN "Description"
-F 11 "On Shore Technology Inc." H 9225 2575 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9225 2675 60  0001 L CNN "Status"
-	1    9025 1475
-	0    -1   1    0   
+P 9025 1575
+F 0 "J6" V 9024 1397 50  0000 R CNN
+F 1 "OSTTC022162 (L)" V 9115 1397 50  0000 R CNN
+F 2 "digikey-footprints:Term_Block_1x2_P5.08MM" H 9225 1775 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9225 1875 60  0001 L CNN
+F 4 "ED2609-ND" H 9225 1975 60  0001 L CNN "Digi-Key_PN"
+F 5 "OSTTC022162" H 9225 2075 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 9225 2175 60  0001 L CNN "Category"
+F 7 "Terminal Blocks - Wire to Board" H 9225 2275 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9225 2375 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558" H 9225 2475 60  0001 L CNN "DK_Detail_Page"
+F 10 "TERM BLK 2P SIDE ENT 5.08MM PCB" H 9225 2575 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 9225 2675 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9225 2775 60  0001 L CNN "Status"
+	1    9025 1575
+	0    -1   -1   0   
 $EndComp
 $Comp
 L dk_Terminal-Blocks-Wire-to-Board:OSTTC022162 J5
 U 1 1 61C35EF8
-P 9000 2150
-F 0 "J5" V 9091 1972 50  0000 R CNN
-F 1 "OSTTC022162" V 9000 1972 50  0000 R CNN
-F 2 "digikey-footprints:Term_Block_1x2_P5.08MM" H 9200 2350 60  0001 L CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9200 2450 60  0001 L CNN
-F 4 "ED2609-ND" H 9200 2550 60  0001 L CNN "Digi-Key_PN"
-F 5 "OSTTC022162" H 9200 2650 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 9200 2750 60  0001 L CNN "Category"
-F 7 "Terminal Blocks - Wire to Board" H 9200 2850 60  0001 L CNN "Family"
-F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9200 2950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558" H 9200 3050 60  0001 L CNN "DK_Detail_Page"
-F 10 "TERM BLK 2P SIDE ENT 5.08MM PCB" H 9200 3150 60  0001 L CNN "Description"
-F 11 "On Shore Technology Inc." H 9200 3250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9200 3350 60  0001 L CNN "Status"
-	1    9000 2150
+P 9025 2250
+F 0 "J5" V 9116 2072 50  0000 R CNN
+F 1 "OSTTC022162 (R)" V 9025 2072 50  0000 R CNN
+F 2 "digikey-footprints:Term_Block_1x2_P5.08MM" H 9225 2450 60  0001 L CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9225 2550 60  0001 L CNN
+F 4 "ED2609-ND" H 9225 2650 60  0001 L CNN "Digi-Key_PN"
+F 5 "OSTTC022162" H 9225 2750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 9225 2850 60  0001 L CNN "Category"
+F 7 "Terminal Blocks - Wire to Board" H 9225 2950 60  0001 L CNN "Family"
+F 8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 9225 3050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558" H 9225 3150 60  0001 L CNN "DK_Detail_Page"
+F 10 "TERM BLK 2P SIDE ENT 5.08MM PCB" H 9225 3250 60  0001 L CNN "Description"
+F 11 "On Shore Technology Inc." H 9225 3350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9225 3450 60  0001 L CNN "Status"
+	1    9025 2250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -695,18 +678,7 @@ F 3 "" H 8775 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8775 1750 8775 1725
-Wire Wire Line
 	8775 1575 8925 1575
-Wire Wire Line
-	8900 2050 8900 1725
-Wire Wire Line
-	8900 1725 8775 1725
-Connection ~ 8775 1725
-Wire Wire Line
-	8775 1725 8775 1575
-Wire Wire Line
-	7975 2150 8900 2150
 Connection ~ 7975 2150
 Wire Wire Line
 	7200 1475 7975 1475
@@ -721,4 +693,37 @@ F 3 "https://www.st.com/resource/en/datasheet/tda7265.pdf" H 5200 2000 50  0001 
 	1    5750 1900
 	1    0    0    -1  
 $EndComp
+Text Label 4475 1800 0    50   ~ 0
+LEFTIN
+Wire Wire Line
+	4475 1800 4725 1800
+Text Label 4475 2250 0    50   ~ 0
+RIGHTIN
+Wire Wire Line
+	4475 2250 4725 2250
+Wire Wire Line
+	5750 750  5975 750 
+Wire Wire Line
+	5750 750  5750 975 
+Text Label 5825 750  0    50   ~ 0
+VIN
+Wire Wire Line
+	8775 1575 8775 1750
+Wire Wire Line
+	7975 2150 8925 2150
+$Comp
+L power:GND #PWR0119
+U 1 1 61BF2190
+P 8775 2425
+F 0 "#PWR0119" H 8775 2175 50  0001 C CNN
+F 1 "GND" H 8780 2252 50  0000 C CNN
+F 2 "" H 8775 2425 50  0001 C CNN
+F 3 "" H 8775 2425 50  0001 C CNN
+	1    8775 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 2250 8775 2250
+Wire Wire Line
+	8775 2250 8775 2425
 $EndSCHEMATC
