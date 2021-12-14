@@ -217,66 +217,53 @@ Wire Wire Line
 $Comp
 L Device:R_Small R25
 U 1 1 61B8359A
-P 4075 2400
-F 0 "R25" H 4134 2446 50  0000 L CNN
-F 1 "R_Small" H 4134 2355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4075 2400 50  0001 C CNN
-F 3 "~" H 4075 2400 50  0001 C CNN
-	1    4075 2400
+P 4075 2575
+F 0 "R25" H 4134 2621 50  0000 L CNN
+F 1 "R_Small" H 4134 2530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4075 2575 50  0001 C CNN
+F 3 "~" H 4075 2575 50  0001 C CNN
+	1    4075 2575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R26
 U 1 1 61B84059
-P 4325 2400
-F 0 "R26" H 4384 2446 50  0000 L CNN
-F 1 "R_Small" H 4384 2355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4325 2400 50  0001 C CNN
-F 3 "~" H 4325 2400 50  0001 C CNN
-	1    4325 2400
+P 4325 2575
+F 0 "R26" H 4384 2621 50  0000 L CNN
+F 1 "R_Small" H 4384 2530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4325 2575 50  0001 C CNN
+F 3 "~" H 4325 2575 50  0001 C CNN
+	1    4325 2575
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0208
 U 1 1 61B8464A
-P 4325 2600
-F 0 "#PWR0208" H 4325 2350 50  0001 C CNN
-F 1 "GND" H 4330 2427 50  0000 C CNN
-F 2 "" H 4325 2600 50  0001 C CNN
-F 3 "" H 4325 2600 50  0001 C CNN
-	1    4325 2600
+P 4325 2775
+F 0 "#PWR0208" H 4325 2525 50  0001 C CNN
+F 1 "GND" H 4330 2602 50  0000 C CNN
+F 2 "" H 4325 2775 50  0001 C CNN
+F 3 "" H 4325 2775 50  0001 C CNN
+	1    4325 2775
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0209
 U 1 1 61B847E0
-P 4175 3150
-F 0 "#PWR0209" H 4175 2900 50  0001 C CNN
-F 1 "GND" H 4180 2977 50  0000 C CNN
-F 2 "" H 4175 3150 50  0001 C CNN
-F 3 "" H 4175 3150 50  0001 C CNN
-	1    4175 3150
+P 4175 3325
+F 0 "#PWR0209" H 4175 3075 50  0001 C CNN
+F 1 "GND" H 4180 3152 50  0000 C CNN
+F 2 "" H 4175 3325 50  0001 C CNN
+F 3 "" H 4175 3325 50  0001 C CNN
+	1    4175 3325
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4075 2100 4075 2225
-Wire Wire Line
-	4325 2500 4325 2600
+	4325 2675 4325 2775
 Wire Wire Line
 	3775 1900 3725 1900
 Wire Wire Line
 	3725 1900 3725 2025
-$Comp
-L power:GND #PWR0210
-U 1 1 61B8CE5F
-P 3725 2525
-F 0 "#PWR0210" H 3725 2275 50  0001 C CNN
-F 1 "GND" H 3730 2352 50  0000 C CNN
-F 2 "" H 3725 2525 50  0001 C CNN
-F 3 "" H 3725 2525 50  0001 C CNN
-	1    3725 2525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3725 2425 3725 2525
 $Comp
@@ -297,7 +284,7 @@ U 1 1 61B96369
 P 3175 1900
 F 0 "S1" H 3175 1575 50  0000 C CNN
 F 1 "EG1218" H 3175 1666 50  0000 C CNN
-F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 3375 2100 50  0001 L CNN
+F 2 "digikey-footprints:Switch_Slide_JS202011SCQN" H 3375 2100 50  0001 L CNN
 F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 3375 2200 60  0001 L CNN
 F 4 "EG1903-ND" H 3375 2300 60  0001 L CNN "Digi-Key_PN"
 F 5 "EG1218" H 3375 2400 60  0001 L CNN "MPN"
@@ -333,44 +320,24 @@ F 3 "" H 2975 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2975 2000 2975 2350
-$Comp
-L dk_Slide-Switches:EG1218 S2
-U 1 1 61BA12E5
-P 4075 2825
-F 0 "S2" V 4029 2969 50  0000 L CNN
-F 1 "EG1218" V 4120 2969 50  0000 L CNN
-F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 4275 3025 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4275 3125 60  0001 L CNN
-F 4 "EG1903-ND" H 4275 3225 60  0001 L CNN "Digi-Key_PN"
-F 5 "EG1218" H 4275 3325 60  0001 L CNN "MPN"
-F 6 "Switches" H 4275 3425 60  0001 L CNN "Category"
-F 7 "Slide Switches" H 4275 3525 60  0001 L CNN "Family"
-F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4275 3625 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 4275 3725 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH SLIDE SPDT 200MA 30V" H 4275 3825 60  0001 L CNN "Description"
-F 11 "E-Switch" H 4275 3925 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4275 4025 60  0001 L CNN "Status"
-	1    4075 2825
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
-	4175 3150 4175 3025
-NoConn ~ 3975 3025
+	4175 3325 4175 3200
+NoConn ~ 3975 3200
 Wire Wire Line
-	4075 2225 4325 2225
+	4075 2400 4325 2400
 Wire Wire Line
-	4325 2225 4325 2300
-Connection ~ 4075 2225
+	4325 2400 4325 2475
+Connection ~ 4075 2400
 Wire Wire Line
-	4075 2225 4075 2300
+	4075 2400 4075 2475
 Wire Wire Line
-	4075 2625 4075 2500
+	4075 2800 4075 2675
 $Comp
 L dk_Diodes-Zener-Single:1N5231BTR Z1
 U 1 1 61BB794F
 P 3725 2225
 F 0 "Z1" V 3778 2147 60  0000 R CNN
-F 1 "1N5231BTR" V 3672 2147 60  0000 R CNN
+F 1 "1N5231BTR" V 3600 2475 60  0000 R CNN
 F 2 "digikey-footprints:DO-35" H 3925 2425 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N5221B-D.PDF" H 3925 2525 60  0001 L CNN
 F 4 "1N5231BFSCT-ND" H 3925 2625 60  0001 L CNN "Digi-Key_PN"
@@ -693,14 +660,6 @@ F 3 "https://www.st.com/resource/en/datasheet/tda7265.pdf" H 5200 2000 50  0001 
 	1    5750 1900
 	1    0    0    -1  
 $EndComp
-Text Label 4475 1800 0    50   ~ 0
-LEFTIN
-Wire Wire Line
-	4475 1800 4725 1800
-Text Label 4475 2250 0    50   ~ 0
-RIGHTIN
-Wire Wire Line
-	4475 2250 4725 2250
 Wire Wire Line
 	5750 750  5975 750 
 Wire Wire Line
@@ -726,4 +685,47 @@ Wire Wire Line
 	8925 2250 8775 2250
 Wire Wire Line
 	8775 2250 8775 2425
+$Comp
+L dk_Slide-Switches:EG1218 S2
+U 1 1 61BA12E5
+P 4075 3000
+F 0 "S2" V 4029 3144 50  0000 L CNN
+F 1 "EG1218" V 4120 3144 50  0000 L CNN
+F 2 "digikey-footprints:Switch_Slide_JS202011SCQN" H 4275 3200 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4275 3300 60  0001 L CNN
+F 4 "EG1903-ND" H 4275 3400 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 4275 3500 60  0001 L CNN "MPN"
+F 6 "Switches" H 4275 3600 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 4275 3700 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4275 3800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 4275 3900 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 4275 4000 60  0001 L CNN "Description"
+F 11 "E-Switch" H 4275 4100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4275 4200 60  0001 L CNN "Status"
+	1    4075 3000
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0210
+U 1 1 61B8CE5F
+P 3725 2525
+F 0 "#PWR0210" H 3725 2275 50  0001 C CNN
+F 1 "GND" H 3730 2352 50  0000 C CNN
+F 2 "" H 3725 2525 50  0001 C CNN
+F 3 "" H 3725 2525 50  0001 C CNN
+	1    3725 2525
+	1    0    0    -1  
+$EndComp
+Text HLabel 4600 1800 0    50   Input ~ 0
+LINEIN_L
+Wire Wire Line
+	4600 1800 4725 1800
+Text HLabel 4600 2250 0    50   Input ~ 0
+LINEIN_R
+Wire Wire Line
+	4600 2250 4725 2250
+Wire Wire Line
+	4075 2100 4075 2400
+Text HLabel 5975 750  2    50   Input ~ 0
+VIN
 $EndSCHEMATC
